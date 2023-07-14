@@ -8,6 +8,6 @@ public class HelloServiceImpl implements HelloService {
 
     @Override
     public String hello(String str) {
-        return str + " melo";
+        return str + " melo " + System.currentTimeMillis();
     }
 }
