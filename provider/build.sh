@@ -1,1 +1,1 @@
-docker build --no-cache --force-rm -t latest --build-arg=target/*.jar -t provider .
+docker build --no-cache --force-rm --build-arg=target/*.jar -t provider .
