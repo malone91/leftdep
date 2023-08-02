@@ -6,7 +6,10 @@ dubbo:
     name: api-gateway-test
     version: 1.0.0
   registry:
-    address: zookeeper://127.0.0.1:2181
+#    docker
+    address: zookeeper://host.docker.internal:2181
+#    local
+#    address: zookeeper://127.0.0.1:2181
   protocol:
     name: dubbo
     port: 20881
