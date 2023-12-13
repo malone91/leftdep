@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8083
 
 dubbo:
   application:
@@ -14,4 +14,4 @@ dubbo:
     name: dubbo
     port: 20881
   scan:
-    base-packages: com.melo.rpc
+    base-packages: com.melo.leftdep
